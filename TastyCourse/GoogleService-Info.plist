@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>17497560131-bv30hrhppkivr04ors63nfeodksk8ioc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.17497560131-bv30hrhppkivr04ors63nfeodksk8ioc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcvPZ2u9wdz_q_7arV5rw51TvV51K6DKQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>17497560131</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>AlkoFitoNiashka-Ltd..TastyCourse</string>
+	<key>PROJECT_ID</key>
+	<string>pizzashop-36bd2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pizzashop-36bd2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:17497560131:ios:ee4172f033d6ee6f33b0f6</string>
+</dict>
+</plist>
