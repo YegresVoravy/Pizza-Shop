@@ -139,21 +139,21 @@ struct AuthView: View {
                 } label: {
                     Text("Ok")
                 }
-
+                
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Image("pizza")
-                .ignoresSafeArea()
-                .blur(radius: isAuth ? 0 : 6)
-            )
-            .animation(Animation.easeInOut(duration: 0.3), value: isAuth)
-            .fullScreenCover(isPresented: $isTabViewShow) {
-                
-                let mainTabBarViewModel = MainTabBarViewModel(user: AuthService.shared.currentUser!)
-                
-                MainTabBarView(viewModel: mainTabBarViewModel)
-            }
+        .background(Image("pizza")
+            .ignoresSafeArea()
+            .blur(radius: isAuth ? 0 : 6)
+        )
+        .animation(Animation.easeInOut(duration: 0.3), value: isAuth)
+        .fullScreenCover(isPresented: $isTabViewShow) {
+            
+            let mainTabBarViewModel = MainTabBarViewModel(user: AuthService.shared.currentUser!)
+            
+            MainTabBarView(viewModel: mainTabBarViewModel)
+        }
         
     }
 }
